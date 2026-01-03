@@ -1,0 +1,37 @@
+{
+    "name": "@monstermann/flags",
+    "type": "module",
+    "version": "0.0.0",
+    "description": "Functional utilities for bitwise flags.",
+    "author": "Michael Ostermann <michaelostermann@me.com>",
+    "license": "MIT",
+    "homepage": "https://MichaelOstermann.github.io/flags",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MichaelOstermann/flags.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MichaelOstermann/flags/issues"
+    },
+    "keywords": [],
+    "sideEffects": false,
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.mts",
+            "import": "./dist/index.mjs"
+        },
+        "./*": "./dist/*"
+    },
+    "main": "./dist/index.mjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.mts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "bundle": "tsdown"
+    },
+    "dependencies": {
+        "@monstermann/dfdl": "^0.1.0"
+    }
+}
