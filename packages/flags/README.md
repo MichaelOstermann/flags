@@ -712,4 +712,3 @@ import { Flags } from "@monstermann/flags";
 pipe(5, Flags.union(3)); // 7
 pipe(12, Flags.union(10)); // 14
 ```
-

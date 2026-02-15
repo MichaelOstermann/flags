@@ -1,1 +1,1 @@
-export * from "./Flags/index";
+export * from "./Flags/index"
