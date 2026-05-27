@@ -32,6 +32,6 @@
         "bundle": "tsdown"
     },
     "dependencies": {
-        "@monstermann/dfdl": "^0.1.0"
+        "@monstermann/dfdl": "^0.2.0"
     }
 }
